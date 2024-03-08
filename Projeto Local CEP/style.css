@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url(img/pexels-pavel-danilyuk-6407565.jpg) ;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+body img {
+    opacity: 0.2    ;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    color: blue;
+    letter-spacing: 0.3rem;
+}
+
+
+.principal {
+    margin-top: 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    align-items: center;
+    margin: auto;
+   width: 50%;
+   padding: 2rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 44%;
+}
+
+label {
+    font-size: 1.9rem;
+    font-weight: 900;
+    color: blue;
+
+}
+
+
+form input {
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    outline: none;
+    box-shadow: 0px 0px 7px black;
+    font-size: 1.3rem;
+    font-weight: bolder;
+
+}
+span {
+    color: gold;
+}
+
+#botaoEnviar {
+    margin-top: 1rem;
+    padding: 0.8rem;
+    font-weight: 900;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border: none;
+    transition: 0.8s;
+    box-shadow: 0px 0px 8px rgb(29, 29, 29);
+    
+}
+#botaoEnviar:hover {
+
+    background-color: gold;
+    color: blue;
+}
+
